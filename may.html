@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ұлдар Мерекесі - 7 Мамыр</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    .hero {
+      background: #2c3e50;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.5em;
+    }
+
+    .scrolling-names {
+      width: 100%;
+      overflow: hidden;
+      background-color: #34495e;
+      padding: 10px 0;
+      color: white;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .scrolling-names .scroll {
+      display: inline-block;
+      animation: scroll 50s linear infinite;
+    }
+
+    @keyframes scroll {
+      100% { transform: translateX(100%); }
+      0% { transform: translateX(-100%); }
+    }
+
+    .event-details, .congrats-text, .guest-list, .closing {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .event-details h2, .congrats-text h2, .guest-list h2, .closing h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .event-details p, .congrats-text p, .closing p {
+      font-size: 1.2em;
+      margin-bottom: 15px;
+    }
+
+    .guest-list {
+      background-color: #ecf0f1;
+    }
+
+    .guests {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .guest img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .guest p {
+      margin: 5px 0;
+    }
+
+    .congrats-text {
+      background-color: #34495e;
+      color: white;
+    }
+
+    .closing {
+      background-color: #34495e;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2em; }
+      .hero p { font-size: 1.2em; }
+      .event-details h2, .congrats-text h2, .guest-list h2, .closing h2 { font-size: 1.8em; }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div>
+      <h1>Ұлдар Мерекесі</h1>
+      <p>7 Мамыр - Отан Қорғаушылар Күні!</p>
+    </div>
+  </section>
+
+  <div class="scrolling-names">
+    <div class="scroll">
+      Алдабек Қанат • Бексұлтан Батумұхаммед • Есдәулет Нұреділ • Құлтай Али • Мұратбай Ғалымбек • Оразбай Нұрмекен • Скаков Мағжан • Ораз Нұрдаулет • Сәлем Санжар • Балтабай Әкімжан • Алмаз Анарбек • 
+      Алдабек Қанат • Бексұлтан Батумұхаммед • Есдәулет Нұреділ • Құлтай Али • Мұратбай Ғалымбек • Оразбай Нұрмекен • Скаков Мағжан • Ораз Нұрдаулет • Сәлем Санжар • Балтабай Әкімжан • Алмаз Анарбек • 
+    </div>
+  </div>
+
+  <section class="event-details">
+    <h2>Мереке туралы</h2>
+    <p><strong>Күні:</strong> 7 Мамыр, 18:00</p>
+    <p><strong>Орыны:</strong> JIHC, 105 каб</p>
+    <p><strong>Дресс-код:</strong> Casual</p>
+    <p><strong>Не әкелу керек:</strong> Жақсы көңіл күй, позитив!</p>
+  </section>
+
+  <section class="congrats-text">
+    <h2>Құттықтау Сөздері</h2>
+<p>
+Қымбатты ұлдар! Бүгінгі ерекше күн — сіздердің мейрамыңыз. Сіздер — біздің мақтанышымыз, үмітіміз, болашағымыз. Әрқайсыңыз — мейірімді, батыл, ақылды, достыққа берік жігітсіздер. Бұл күн тек қуанышқа, шын күлкіге, жақсы естеліктерге толы болсын. Біз сіздерді өте құрметтейміз, әрдайым қолдаймыз. Мерекелеріңізбен шын жүректен құттықтаймыз! PS: Chat GPT(шын жүректен жазған гпт если что))
+</p>
+  </section>
+
+  <section class="guest-list">
+    <h2>Қонақтар Тізімі</h2>
+    <div class="guests">
+      <div class="guest">
+        <img src="kaneke.png" alt="Алдабек Қанат">
+        <p><strong>Алдабек Қанат</strong></p>
+        <p>Өзіне көп алатын,атын КРАШ деп өзгертіп алған, бола алмай жүрген әншісі, вроде жақсы адам.</p>
+      </div>
+      <div class="guest">
+        <img src="batput2.png" alt="Бексұлтан Батумұхаммед">
+        <p><strong>Бексұлтан Батумұхаммед</strong></p>
+        <p>Группаның бейби фейсі, әлем төңкеріліп құласада шашына укладка жасап жүреді.</p>
+      </div>
+      <div class="guest">
+        <img src="nuredil.png" alt="Есдәулет Нұреділ">
+        <p><strong>Есдәулет Нұреділ</strong></p>
+        <p>Тихий но опасный,індемей жүріп ұйқыны да сабақты да бітіретін ,редко но метко айтатын кісі.</p>
+      </div>
+      <div class="guest">
+        <img src="ali.jpg" alt="Құлтай Али">
+        <p><strong>Құлтай Али</strong></p>
+        <p>Жүгіргенде гепардтан озып кететін,-1 алудан мастер спорта,форма нарушать етуден гран при,негрменде араласа беретін,типа прикол ұстап қоятын,кереметсің балақай.</p>
+      </div>
+      <div class="guest">
+        <img src="galosh.png" alt="Мұратбай Ғалымбек">
+        <p><strong>Мұратбай Ғалымбек</strong></p>
+        <p>Группаның 1Ғ1- Чалышканы ,сәл блогерлігі бар енді,любой ситуациядан шығып кететін адам өте жеңіл адам.</p>
+      </div>
+      <div class="guest">
+        <img src="nurmeken.jpg" alt="Оразбай Нұрмекен">
+        <p><strong>Оразбай Нұрмекен</strong></p>
+        <p>Сумкасынан не бір заттар табылатын,адам білмейтін нәрселерді білетін,ГЕНШНнің корольі.</p>
+      </div>
+      <div class="guest">
+        <img src="maga.png" alt="Скаков Мағжан">
+        <p><strong>Скаков Мағжан</strong></p>
+        <p>Гений с черным поясом по черному юмору. Уверенность — его второе имя, а сарказм — родной язык.</p>
+      </div>
+      <div class="guest">
+        <img src="nurda.jpg" alt="Ораз Нұрдаулет">
+        <p><strong>Ораз Нұрдаулет</strong></p>
+        <p>Типа әзілҚОШҚАР, Скулы джолли, Кудрявые волосы что еще нужно для счастья? Pss(девочки тебе завидуют)</p>
+      </div>
+      <div class="guest">
+        <img src="sanzhik.png" alt="Сәлем Санжар">
+        <p><strong>Сәлем Санжар</strong></p>
+        <p>Группадағы жалғыз Спортик ,любой ситуацияда түр бермейтін, жаны фтер десе де үнемі длармен бірге жүреді.</p>
+      </div>
+      <div class="guest">
+        <img src="Akimzhan_aga.png" alt="Балтабай Әкімжан">
+        <p><strong>Балтабай Әкімжан</strong></p>
+        <p>Сегіз қырлы, бір сырлы — бала тәрбиесін де, білім алуды да меңгерген, қажет болса, асүйде шебер аспазға айналатын, рубашкамен тұрып рубашкамен ұйықтайтын жан-жақты адам.</p>
+      </div>
+      <div class="guest">
+        <img src="almaz_agay.png" alt="Алмаз Анарбек">
+        <p><strong>Алмаз Анарбек</strong></p>
+        <p>2F-1 дің кабинетіне жылына, айына 1 келетін,всегда бір жарыстарға қатысып,тынбай бәріне үлгеретін, 
+”прикол қатты айтып қоямын” деп ойлайтын,жылдың үздік КУРАТОРын алғысы келеді.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing">
+    <h2>Мерекелеріңізбееееенннн!</h2>
+    <p>Біз сіздерді күтеміз шын жүректен 2F1 қыздарыыыы!!!!</p>
+  </section>
+
+</body>
+</html>
